@@ -8,13 +8,14 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-<<<<<<< HEAD
+
   title: 'SpArts App',
   description: 'Developed by Naveed Islam',
-=======
-  title: 'SpArts',
-  description: 'Created By Naveed Islam',
->>>>>>> 9b472d6 (first)
+
+  
+
+  
+
 }
 
 export default function RootLayout({
