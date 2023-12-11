@@ -6,7 +6,7 @@ import moment from "moment"
 
 function Sidebar() {
   return (
-      <div className=" overflow-y-scroll flex flex-col xl:pt-[5rem] pt-2 relative space-y-1 xl:space-y-4 text-center dark:bg-slate-900 bg-blue-100 h-screen ">
+      <div className=" overflow-y-auto flex flex-col xl:pt-[5rem] pt-2 relative space-y-1 xl:space-y-4 text-center dark:bg-slate-900 bg-blue-100 h-screen ">
            <div className='text-sm flex top-5  absolute flex-col w-full justify-center items-center text-center font-medium -space-x-10 ' >
           <Image width={250} height={20} src={'/logo.png'} className=' mb-2 dark:invert' alt='SpArts Logo'></Image>
               {moment().format("ddd, MMM Do")} 
